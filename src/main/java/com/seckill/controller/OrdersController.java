@@ -16,7 +16,7 @@ import javax.annotation.Resource;
 @Controller
 public class OrdersController {
     @Resource
-    OrdersService ordersService;
+    private OrdersService ordersService;
 
     @RequestMapping(value = "/getOrderResult")
     @ResponseBody
