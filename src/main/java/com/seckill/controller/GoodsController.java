@@ -77,6 +77,5 @@ public class GoodsController {
         Integer uid = 1;
         ReturnObject ro = goodsService.seckill(goodsId,randomName,uid,buyPrice);
         return ro;
-        //test
     }
 }
